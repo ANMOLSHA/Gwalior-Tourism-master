@@ -158,10 +158,8 @@ function myFunction() {
         <div class="col-md-7">
           <p class="text-justify banner-content">
              Gwalior is best known for its imposing hilltop fort, which was famously described as ‘the pearl amongst fortresses in India’. Historically, the city has been the cradle of a number of dynasties that ruled it over the years. Their influence is clearly seen in the many regal structures that dominate the cityscape. In a sense, Gwalior continues to retain a medieval majesty.
-
-             Gwalior holds an unparalleled reputation in Sangeet, and has retained Indian traditions and the wealth of music intact over the years. The Gwalior Gharana is one of the oldest Khayal Gharanas and the one to which most classical Indian musicians can trace the origin of their style. Legendary musicians like Tansen and Baiju Bawara belonged to Gwalior.
-
-             Gwalior also has a rich history in sports, with the wizard of Hockey, Dhyan Chand, belonging to the city.
+<br>Gwalior holds an unparalleled reputation in Sangeet, and has retained Indian traditions and the wealth of music intact over the years. The Gwalior Gharana is one of the oldest Khayal Gharanas and the one to which most classical Indian musicians can trace the origin of their style. Legendary musicians like Tansen and Baiju Bawara belonged to Gwalior.
+ <br> Gwalior also has a rich history in sports, with the wizard of Hockey, Dhyan Chand, belonging to the city.
           </p>
         </div>
         <div class="col-md-5 text-center">
@@ -254,19 +252,14 @@ function myFunction() {
 <footer class="page-footer font-small blue-grey lighten-5" style="background-color: darkslategray;">
   <div style="background-color: #21d192;">
     <div class="container">
-
       <!-- Grid row-->
       <div class="row py-4 d-flex align-items-center">
-
-        <!-- Grid column -->
+ <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
           <h6 class="mb-0">Get connected with us on social networks!</h6>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
+   <!-- Grid column -->
         <div class="col-md-6 col-lg-7 text-center text-md-right" style="color: black;">
-
           <!-- Facebook -->
           <a class="ic" href="https://www.facebook.com/people/Anmol-Sharma/100004621953711">
            <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -287,37 +280,27 @@ function myFunction() {
           <a class="ic" href="https://www.instagram.com/anmol_1998cool/">
             <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
-
         </div>
         <!-- Grid column -->
-
       </div>
       <!-- Grid row-->
-
     </div>
   </div>
-
   <!-- Footer Links -->
   <div class="container text-center text-md-left mt-5">
-
     <!-- Grid row -->
     <div class="row mt-3 dark-grey-text">
-
       <!-- Grid column -->
       <div class="col-md-3 col-lg-4 col-xl-3 mb-4" style="color: #fff">
-
         <!-- Content -->
         <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Gwalior Tourism</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>A culturally rich city with all things beautiful, Gwalior has had a glorious history with prominent dynasties ruling the region in the past. With all its forts and palaces and parks and museums, Gwalior is definitely worth a visit! </p>
-
       </div>
       <!-- Grid column -->
       <hr>
-
       <!-- Grid column -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Useful links</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
@@ -331,15 +314,12 @@ function myFunction() {
            <a class="dark-grey-text" href="food.html"># Food & Restaurant</a>
             <br>
             <br>
-           <a class="dark-grey-text" href="#!"># How To Reach</a>
-        
+           <a class="dark-grey-text" href="#!"># How To Reach</a>    
       </div>
       <!-- Grid column -->
        <hr>
-
       <!-- Grid column -->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color: #fff;">
-
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Contact</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
@@ -351,23 +331,18 @@ function myFunction() {
         <br>
         <p>
           <i class="fa fa-phone" aria-hidden="true"></i> +91 9131664706</p>
-
       </div>
       <!-- Grid column -->
-
     </div>
     <!-- Grid row -->
-
   </div>
   <!-- Footer Links -->
-
   <!-- Copyright -->
   <div class="footer-copyright text-center text-black-50 py-3">
     <a style="color: white;">© Tourism @ 2020 :</a>
     <a class="dark-grey-text" href="#">GwlTourism.com</a>
   </div>
   <!-- Copyright -->
-
 </footer>
 <!-- Footer -->
 </body>
