@@ -358,3 +358,67 @@ function myFunction() {
     <!-- Grid row -->
 
   </div>
+    <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4" style="color: #fff">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Gwalior Tourism</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>A culturally rich city with all things beautiful, Gwalior has had a glorious history with prominent dynasties ruling the region in the past. With all its forts and palaces and parks and museums, Gwalior is definitely worth a visit! </p>
+
+      </div>
+      <!-- Grid column -->
+      <hr>
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Useful links</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+           <br>
+           <a class="dark-grey-text" href="ptv.html"># Places To Visit</a>
+           <br>
+           <br>
+           <a class="dark-grey-text" href="hotel.html"># Hotels</a>
+            <br>
+            <br>
+           <a class="dark-grey-text" href="food.html"># Food & Restaurant</a>
+            <br>
+            <br>
+           <a class="dark-grey-text" href="#!"># How To Reach</a>
+        
+      </div>
+      <!-- Grid column -->
+       <hr>
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color: #fff;">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Contact</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fa fa-home mr-3" ></i> Gwalior, Madhya Pradesh</p>
+          <br>
+        <p>
+        <i class="fa fa-envelope-square"></i>anmol1998cool@gmail.com</p>
+        <br>
+        <p>
+          <i class="fa fa-phone" aria-hidden="true"></i> +91 9131664706</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
