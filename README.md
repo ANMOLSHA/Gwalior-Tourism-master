@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>SignUp and Login</title>
+	<meta charset="UTF8">
+  <meta name="viewport" content="width=devices-width,initial-scale=1.0">
+  <meta http-equip="X-UA-Compaitable" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -60,7 +63,6 @@
 	const signUpButton = document.getElementById('signUp');
 	const signInButton = document.getElementById('signIn');
 	const container = document.getElementById('container');
-
 	signUpButton.addEventListener('click', () => {
 		container.classList.add("right-panel-active");
 	});
