@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gwalior Tourism</title>
+	<title></title>
   <meta charset="UTF8">
   <meta name="viewport" content="width=devices-width,initial-scale=1.0">
   <meta http-equip="X-UA-Compaitable" content="ie=edge">
@@ -78,7 +78,6 @@ function myFunction() {
  </nav>
 
 </div>
-<br>
 <br>
 <br>
 <br>
