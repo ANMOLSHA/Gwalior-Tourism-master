@@ -19,7 +19,7 @@
 <form>
 	<h1>Create Account</h1>
 	<div class="social-container">
-		<a href="https://www.facebook.com/people/Anmol-Sharma/100004621953711" class="social"><i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
+		<a href="https://www.facebook.com/people/Anmol-Sharma/100004621953711" class="social"><i class="fa fa-facebook-f"></i></a>
 		<a href="https://twitter.com/AnmolSh31767158" class="social"><i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
 		<a href="https://www.instagram.com/anmol_1998cool/" class="social"><i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
 	</div>
