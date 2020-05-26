@@ -421,4 +421,15 @@ function myFunction() {
 
   </div>
   <!-- Footer Links -->
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-black-50 py-3">
+    <a style="color: white;">© Tourism @ 2020 :</a>
+    <a class="dark-grey-text" href="#">GwlTourism.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>
 
