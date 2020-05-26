@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF8">
+  <meta name="viewport" content="width=devices-width,initial-scale=1.0">
+  <meta http-equip="X-UA-Compaitable" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="ptv.css">
+</head>
+<body> 
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+</script>  
+<div class="Top">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #192332 !important; border-top: 10px solid #54c4c1;">
+  <a class="navbar-brand" href="#"><img src="travel-logo-png-1.png" style="height: 100px; margin-left: -10px;"><b style="color: #fff; font-family: cursive; font-size: unset;">GWALIOR TOURISM</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"  style="background-color: inherit;
+    border-radius: 9px;border: 3px solid #416f9f;"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="GwlTourism.html"><b style="border: 2px solid dodgerblue; padding: 7px;">Home</b><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="ptv.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+          Places To Visit</b>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#1" >Gwalior Fort</a>
+          <a class="dropdown-item" href="#2" >Jai-Vilas palace</a>
+          <a class="dropdown-item" href="#3">Gujari Mahal [State Archaeological Museum]</a>
+          <a class="dropdown-item" href="#4">Gopachal rock cut Jain monuments</a>
+          <a class="dropdown-item" href="#5">Sun Temple</a>
+          <a class="dropdown-item" href="#6">Teli Ka Mandir</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="ptv.html">And Many More....</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="hotel.html"><b>Hotels</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="resturant.html"><b>Restaurant</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="htr.html"><b>How To Reach</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html"><b>Contact Us</b></a>
+      </li>
+    </ul>
+  </div> 
+</div>
+<br><br>
+<br><br>
+<br><br>
+<div class="container-fluid">
+    <div class="row">
+   <div class=" col-md-7" style="max-width: 100%; float: left;">
+     <img class="mySlides" src="ptv1.jpg" style="width: 100%;">
+     <img class="mySlides" src="ptv2.jpg" style="width: 100%;">
+     <img class="mySlides" src="ptv3.jpg" style="width: 100%;">
+     <img class="mySlides" src="ptv4.png" style="width: 100%;">
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+   <div class="col-md-5">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d51147.883726647124!2d78.183235!3d26.2337164!3m2!1i1024!2i768!4f13.1!2m1!1splaces%20to%20visit%20in%20gwalior!5e1!3m2!1sen!2sin!4v1587837860010!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+</div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3seconds
+}
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+</script>
+<br>
+<div class="w3-container">
+    <center><h3 style="font-family:initial;
+    font-weight: 400;
+    margin: 10px 0;background-image: url(line.png);">Places To Visit In Gwalior</h3>
+    <h6>Recently reviewed<strong> tourist attractions</strong></h6>
+  </center>
+</div>
+<br>
+<div class="container">
+<div class="half">
+<div class="card mb-3" id="1">
+  <div class="row no-gutters"style="box-shadow: 0px 5px 18px;">
+    <div class="col-md-4">
+      <img src="i1.jpg" class="card-img" alt="..." style="width: 100%;
+          height: 100%;">
+    </div>
+    <div class="col-md-8" style="color: black; background-image: url(bimg.jpg);">
+      <div class="card-bodym">
+        <a href="https://www.google.com/maps/place/Gwalior+Fort/@26.2313245,78.1673017,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c68ff0a2df73:0xebff42167ed98c34!8m2!3d26.2313245!4d78.1694957"><h5 class="card-title"><b>Gwalior Fort</b></h5></a>
+        <p class="card-text">Gwalior Fort is a hill fort near Gwalior, Madhya Pradesh, central India. The fort has existed at least since the 10th century, and the inscriptions and monuments found within what is now the fort campus indicate that it may have existed as early as the beginning of the 6th century.<hr>
+        Hours:-<br>
+        Friday  6am–5:30pm<br>
+        Saturday  6am–5:30pm<br>
+        Sunday  6am–5:30pm<br>
+        Monday  6am–5:30pm<br>
+        Tuesday 6am–5:30pm<br>
+        Wednesday 6am–5:30pm<br>
+        Thursday  6am–5:30pm<hr>
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Mela+Ground,+Thatipur,+Gwalior,+Madhya+Pradesh+474011/@26.2277664,78.1998229,16z/data=!3m1!4b1!4m5!3m4!1s0x3976c14d72afa5a7:0x28e512a31211cb2e!8m2!3d26.227742!4d78.2034633"><img src="i13.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Gwalior Mela</b></h5></a>
+        <p class="card-text">The Gwalior Trade Fair is a large trade fair in Madhya Pradesh. It was started in 1905 by the King of Gwalior, Maharaj Madhav Rao Scindia.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4" id="2">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Jai+Vilas+Palace/@26.2044455,78.1663152,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c549afb4d4b3:0xaf5a3c92b009572!8m2!3d26.2044455!4d78.1685092"><img src="i2.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>The Jai Vilas Palace</b></h5></a>
+        <p class="card-text">It was established in 1874 by Maharajadhiraj Shrimant Jayajirao Scindia Alijah Bahadur, the Maharaja of Gwalior. </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Inox+cinema+db+mall/@26.2158646,78.1825935,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c6a6d50e8d95:0xc8ce33f4c65cd847!8m2!3d26.2158646!4d78.1847875"><img src="i18.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>DB Mall Gwalior</b></h5></a>
+        <p class="card-text">DB Mall Gwalior. Shopping Mall in Gwalior. Racecourse Road, Opposite Railway station, Gwalior, Madhya Pradesh.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Tomb+of+Mohammad+Ghaus/@26.2317752,78.1774474,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c6be23d290a1:0x71e7399cbc4a79f6!8m2!3d26.2317752!4d78.1796414"><img src="i5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Tomb of Mohammad Ghaus</b></h5></a>
+        <p class="card-text">16th-century mausoleum with hexagonal towers & the tomb of Muslim saint, Muhammad Ghaus.
+         Address: 27 B, Tansen Rd, Tansen Nagar, Gwalior</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+    <center><h3 style="font-family:initial;
+    font-weight: 400;
+    margin: 10px 0;background-image: url(line.png);">Points of interest</h3>
+    <h6>Experience the popular points of interest in and around the <strong>city</strong></h6>
+  </center>
+</div>
+<br>
+<div class="card mb-3">
+  <div class="row no-gutters" style="box-shadow: 0px 5px 18px;">
+    <div class="col-md-8" style="background-image: url(bimg.jpg); color: black;">
+      <div class="card-bodym">
+        <a href="https://www.google.com/maps/place/Maharaj+Bada,+Gwalior,+Madhya+Pradesh+474001/@26.19691,78.144571,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c5cfc0bb062f:0xfe42a8bc202bbe18!8m2!3d26.1969425!4d78.1467338"><h5 class="card-title"><b>Maharaj Bada</b></h5></a>
+        <p class="card-text">The Architectural Marvel of India is also called Jayaji Chowk in Gwalior. Jayaji Chowk is famous as Bada is the most significant places of Gwalior in Madhya Pradesh is the central focus of Lashkar.Lashkar is one of the prominent areas of Gwalior.This phenomenal grand square is surrounded by various heritage buildings like general post office, State bank of India, SBI ATM building, Town Hall, Government Press, Victoria Market and Devghar Mandir. Buildings are constructed in different architectural style and this unequal feature makes Bada to stand out singular of all the squares of India centered with a well regarded Jayaji Rao Scindia ji’s statute on grand white marble platform. This significant statue is surrounded by different petite business outlets and private stalls.<hr>
+          Maharaj Bada is the centre of the Lashkar area of the city,which holds good portion of city's economy.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+     <img src="i17.png" class="card-img" alt="..." style="width: 100%;
+          height: 100%;">
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2" id="3">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Gujari+Mahal/@26.2340458,78.1684517,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c69317f82527:0xf552fe24bfd04257!8m2!3d26.2340458!4d78.1706457"><img src="i4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>The Gujari Mahal</b></h5></a>
+        <p class="card-text">The Gujari Mahal Archeological Museum or State Archaeological Museum, sometimes called the "Gwalior Fort Museum", is a state museum in Gwalior, located in the fortress of Gujari Mahal.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col mb-4" id="6">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Teli+Ka+Mandir,+Gwalior+Fort,+Gwalior,+Madhya+Pradesh/@26.2236713,78.1680604,17z/data=!4m5!3m4!1s0x3976c6851d3b2e8d:0xc55751c17f188623!8m2!3d26.2202679!4d78.165678"><img src="i6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Teli ka Mandir</b></h5></a>
+        <p class="card-text">Or Telika Temple, is a Hindu temple located within the Gwalior Fort in Madhya Pradesh, India. Dedicated to Vishnu, Shiva and Matrikas, it has been variously dated between the early 8th and early 9th century CE.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Sas+Bahu+Temple/@26.2236713,78.1680604,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c6907f4ef7e7:0x7a2acdcacf0d7501!8m2!3d26.2236713!4d78.1702544"><img src="i8.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Sasbahu Temple</b></h5></a>
+        <p class="card-text">Sasbahu Temple, also called the Sas-Bahu Mandir, Sas-Bahu Temples, Sahastrabahu Temple or Harisadanam temple, is an 11th-century twin temple in Gwalior.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Gwalior+Zoo/@26.209987,78.1671527,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c427c1d4e8a9:0x5094b4a8c2c1a74a!8m2!3d26.209987!4d78.1693467"><img src="i10.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Gwalior Zoo</b></h5></a>
+        <p class="card-text">Zoo in a garden-like complex with a range of animals, from snakes & birds to a white tiger.<br>
+Address: Phool Bagh Rd,Lashkar,Gwalior.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" id="5">
+  <div class="row no-gutters" style="box-shadow: 0px 5px 18px;">
+    <div class="col-md-4">
+    <img src="sun1.jpg" class="card-img" alt="..." style="width: 100%;height: 100%;">
+    </div>
+    <div class="col-md-8"  style="background-image: url(bimg.jpg); color: black;">
+      <div class="card-bodym">
+        <a href="https://www.google.com/maps/place/Sun+Temple+Gwalior/@26.2363252,78.2164358,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c146d6155d6b:0xa34478e9dc6fc27b!8m2!3d26.2363252!4d78.2186298"><h5 class="card-title"><b>Sun Temple</b></h5></a>
+        <p class="card-text">Sun Temple Gwalior. Also known as the Surya Mandir, the Sun Temple is one of the most popular religious centres in the Gwalior city.<hr>
+           Sun Temple has turned out to be one of the most popular tourist attractions in the city these days. Although it is one of the most revered shrines in the city now.<hr> the Sun Temple is also known for its amazing architecture. Dedicated to the holy Sun God as the name suggests, the Sun Temple in Gwalior has been modelled with somewhat close similarities to the legendary Sun Temple at Konark in Odisha. The temple adorns a breathtaking architecture and thus attracts tourists and devotees from all over the country in large numbers.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/TIGHRA+DAM/@26.2183115,78.0046065,17z/data=!3m1!4b1!4m5!3m4!1s0x3976cbe860308085:0xd29b10edd8414ed2!8m2!3d26.2183115!4d78.0068005"><img src="i14.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Tighra Dam</b></h5></a>
+        <p class="card-text">Tigra Dam creates a freshwater reservoir on the Sank River, about 23 km from Gwalior.It plays a crucial role in supplying water to the city. The dam is 24 metres high at its crest, and 1341 m long.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Bateshwar+Temple/@26.4257689,78.1941632,17z/data=!3m1!4b1!4m5!3m4!1s0x3976bb8b7d634a05:0x6abb18a2c18ccb46!8m2!3d26.4257689!4d78.1963572"><img src="i12.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Padavali and Bateshwar</b></h5></a>
+        <p class="card-text">Bateshwar Hindu temples are a group of nearly 200 sandstone Hindu temples and their ruins in north Madhya Pradesh in post-Gupta, early Gurjar-Pratihara style of North Indian temple architecture.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Sarod+Ghar/@26.2075195,78.1439378,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c5d799806ec5:0x5790483465256c99!8m2!3d26.2075195!4d78.1461318"><img src="i16.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Sarod Ghar</b></h5></a>
+        <p class="card-text">Also known as Kala Vithika,Museum of classical Indian music, with a collection of instruments, memorabilia & live performances.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Captain+Roop+Singh+Cricket+Stadium/@26.2104752,78.1815833,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c41e66cace51:0x17059c5dfc21aa01!8m2!3d26.2104752!4d78.1837773"><img src="i19.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Captain Roop Singh Stadium</b></h5></a>
+        <p class="card-text">a cricket ground in Gwalior.The stadium has hosted 12 ODI matches, the first one was played between India and West Indies on 22 January 1988.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+    <center><h3 style="font-family:initial;
+    font-weight: 400;
+    margin: 10px 0;background-image: url(line.png);">Accommodation</h3>
+    <h6><strong>Heart, mind and soul.</strong> Experiences you wouldn’t want to miss</h6>
+  </center>
+</div>
+<br>
+<div class="card mb-3" id="4">
+  <div class="row no-gutters" style="box-shadow: 0px 5px 18px;">
+    <div class="col-md-8" style="background-image: url(bimg.jpg); color: black;">
+      <div class="card-bodym">
+         <a href="https://www.google.com/maps/place/Gopachal+Parvat/@26.2156155,78.1652228,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c41f00000001:0x62044cbdd6f9935c!8m2!3d26.2156155!4d78.1674168"><h5 class="card-title"><b>Gopachal rock cut Jain monuments</b></h5></a>
+        <p class="card-text">Gopachal rock-cut Jain monuments, also called Gopachal Parvat. <br>Jaina monuments, are a group of Jain carvings dated to between 7th and 15th century.<br>They are located around the walls of the Gwalior Fort, Madhya Pradesh. They depict Tirthankaras in seated Padmasana posture as well as standing Kayotsarga posture, in the typical naked form of Jain iconography.<br>Situated on a long straight cliff on the eastern face of the hill, Gopachal Parvat is the largest and considered the most important of the five clusters of rock-cut Jain monuments in Gwalior.</p>
+      </div>
+    </div>
+     <div class="col-md-4">
+        <img src="budh.png" class="card-img" alt="..." style="height: 100%; width: 100%;">
+      </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Gurudwara+Shri+Data+Bandi+Chhor+Shahib/@26.2393908,78.1500407,13z/data=!4m8!1m2!2m1!1sgurudwara+near+Gwalior,+Madhya+Pradesh!3m4!1s0x3976c773d5b121f1:0xbd5eb3fd0bae5572!8m2!3d26.2202653!4d78.16727"><img src="i20.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Gurdwara Data Bandi Chorh Sahib</b></h5></a>
+        <p class="card-text">Gurdwara Data Bandi Chorh Sahib, situated in Gwalior, is associated with the imprisonment of Guru Har Gobind Sahib in Gwalior Fort and his celebrated release in which he managed to win the freedom of 52 Rajas (Kings) who had long suffered imprisonment in the Fort. The word "Bandi" means "imprisoned", "Chhor" means "release".</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Taj+Usha+Kiran+Palace,+Gwalior/@26.2032699,78.1651164,17z/data=!3m1!4b1!4m8!3m7!1s0x3976c42f1355eb41:0x7bebad1551a0ad4e!5m2!4m1!1i2!8m2!3d26.2032699!4d78.1673104"><img src="i21.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Taj Usha Kiran Palace</b></h5></a>
+        <p class="card-text">Usha Kiran Palace is a heritage hotel, located near Jai Vilas Mahal on a 9-acre land in Gwalior built by the royal Scindia dynasty of the Marathas.The management of the five-star hotel is done by Taj Hotels Resorts and Palaces.The hotel makes use of solar power energy produced at Kadodiya Solar Park .</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/Tansen+Sangeet+Mahavidhyalya/@26.1922208,78.1667269,15z/data=!4m8!1m2!2m1!1stansen+music+gwalior!3m4!1s0x3976c43ee3a16087:0xeccba075595f9320!8m2!3d26.1922208!4d78.1754816"><img src="i24.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Tansen Music Festival</b></h5></a>
+        <p class="card-text">Tansen Samaroh or Tansen Sangeet Samaroh is celebrated every year in the month of December in Behat village of Gwalior district, Madhya Pradesh. It is a 4-day musical extravaganza.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://www.google.com/maps/place/SPLASH+THE+SUN+CITY/@26.2287367,78.2041232,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c14ded3cd4ed:0xac043946feaac93e!8m2!3d26.2287367!4d78.2063119"><img src="i23.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Water Park</b></h5></a>
+        <p class="card-text">Splash The Sun City ,Bustling outdoor amusement park with themed rides & a large water play area with slides & fountains,Loved by people of all age groups, a water park is one of the best places for fun and recreation.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<br>
+
+<div class="container-fluid">
+ <div class="row">
+   <div class=" col-md-3">
+    
+    <a target="_blank" href="http://www.mptourism.com/sites/default/files/traveltools/Gwalior_1.pdf">
+     <img alt="" src="t1.gif" style="max-width: 100%;float: left;"/>
+     <center>
+    <h4>Destination Map</h4>
+    </a>
+    <p>A handy digital map of the location and facilities for easy reference.</p>
+    </center>
+     
+    </div>
+    <br>
+     <div class=" col-md-3">
+      <a target="_blank" href="http://www.mptourism.com/A-to-Z-tourist-Guide.pdf">
+     <img alt="" src="t2.gif" style="max-width: 100%;float: left;"/>
+        <center>
+     <h4>Local Guide Directory</h4>
+    </a>
+    <p>List and contact information of accredited local guides. Please call and book in advance.</p>
+      </center>
+    </div>
+    <br>
+     <div class=" col-md-3">
+     <a target="_blank" href="http://www.mptourism.com/sites/default/files/traveltools/Gwalior_0.pdf">
+    <img alt="" src="t3.gif" style="max-width: 100%;float: left;" />
+    <center>
+    <h4>Destination Brochure</h4>
+    </a>
+    <p>A guide to the sights, facilities, timings and more.</p>
+    </center>
+    </div>
+    <br>
+     <div class=" col-md-3">
+      <a target="_blank" href="https://www.skymetweather.com/holidaydestinations/seasonal-forecast/gwalior-gwalior-madhya%20pradesh-india-december">
+      <img alt="" src="t4.gif" style="max-width: 100%;float: left;" />
+      <center>
+      <h4>Best Season To Visit</h4>
+      </a>
+      <p>
+            This destination can be visited throughout the year, but it’s best to visit in the months of September to February.
+      </p>
+    </center>
+    </div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="col-md-12 page-footer font-small cyan darken-3" style="background-color: #21d192 ;">
+
+  <!-- Footer Elements -->
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+         <center>
+          <!-- Facebook -->
+          <a class="fb-ic" href="https://www.facebook.com/people/Anmol-Sharma/100004621953711">
+            <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="https://twitter.com/AnmolSh31767158">
+            <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="https://www.instagram.com/anmol_1998cool/">
+            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic" href="https://www.whatsapp.com">
+            <i class="fa fa-whatsapp fa-lg white-text fa-2x"> </i>
+          </a>
+        </center>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="col-md-12 footer-copyright text-center py-3" style="background-color: darkslategray;border-radius: 100px;">
+    <a style="color: white;">© Tourism @ 2020 :</a>
+    <a style="color: #008b8b; font-size: larger;" href="GwlTourism.html ">GwlTourism.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>

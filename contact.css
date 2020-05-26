@@ -1,0 +1,46 @@
+a{
+	font-family: cursive;
+	padding: 18px;
+    margin-left: 17px;
+}
+.nav-link b{
+	color: #fff;
+}
+.form-group{
+	margin-right: 650px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #008b8b;
+    border-color: #008b8b;
+}
+.fa-2x {
+    font-size: 2em;
+    color: cornsilk;
+}
+.fa-2x:hover{
+    font-size: 2em;
+    color: black;
+    transition-delay: 0.6s ease;
+}
+.header {
+  position: fixed;
+  top: 134px;
+  z-index: 1;
+  width: 100%;
+  background-color: transparent;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: transparent;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
