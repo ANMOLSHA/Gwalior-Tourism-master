@@ -240,3 +240,121 @@ function myFunction() {
 </div>
 <br>
 <br>
+<div class="map">
+  <center>
+   <h2 style="color: #000"><b class="s">"Explore "<span class="l" style="color: #096ac8;">Gwalior</span>
+    </h2>
+    </center>
+    <br>
+    <br>
+<iframe  width="100%" height="500" frameborder="0" style="border:0;"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114542.8186404311!2d78.12068716826933!3d26.214138801485987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c5d1792291fb%3A0xff4fb56d65bc3adf!2sGwalior%2C%20Madhya%20Pradesh%2C%20India!5e0!3m2!1sen!2sus!4v1578249490863!5m2!1sen!2sus" allowfullscreen=""></iframe>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5" style="background-color: darkslategray;">
+  <div style="background-color: #21d192;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right" style="color: black;">
+
+          <!-- Facebook -->
+          <a class="ic" href="https://www.facebook.com/people/Anmol-Sharma/100004621953711">
+           <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </a>
+          <!-- Twitter -->
+          <a class="ic" href="https://twitter.com/AnmolSh31767158">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <!-- Google +-->
+          <a class="ic" href="">
+           <i class="fa fa-google-plus" aria-hidden="true"></i>
+          </a>
+          <!--Linkedin -->
+          <a class="ic" href="https://www.whatsapp.com">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          </a>
+          <!--Instagram-->
+          <a class="ic" href="https://www.instagram.com/anmol_1998cool/">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4" style="color: #fff">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Gwalior Tourism</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>A culturally rich city with all things beautiful, Gwalior has had a glorious history with prominent dynasties ruling the region in the past. With all its forts and palaces and parks and museums, Gwalior is definitely worth a visit! </p>
+
+      </div>
+      <!-- Grid column -->
+      <hr>
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Useful links</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+           <br>
+           <a class="dark-grey-text" href="ptv.html"># Places To Visit</a>
+           <br>
+           <br>
+           <a class="dark-grey-text" href="hotel.html"># Hotels</a>
+            <br>
+            <br>
+           <a class="dark-grey-text" href="food.html"># Food & Restaurant</a>
+            <br>
+            <br>
+           <a class="dark-grey-text" href="#!"># How To Reach</a>
+        
+      </div>
+      <!-- Grid column -->
+       <hr>
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color: #fff;">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: #7fffc8">Contact</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fa fa-home mr-3" ></i> Gwalior, Madhya Pradesh</p>
+          <br>
+        <p>
+        <i class="fa fa-envelope-square"></i>anmol1998cool@gmail.com</p>
+        <br>
+        <p>
+          <i class="fa fa-phone" aria-hidden="true"></i> +91 9131664706</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
