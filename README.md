@@ -14,7 +14,7 @@
 	<div class="skip">
 <center>
 <img src="travel-logo-png-1.png" style="max-height: 200px;max-width: 200px;"><br>
-<a href="GwlTourism.html"><button style="color: #000; background-color: white;"><b>"Explore"<span style="color: #096ac8;">Gwalior</span></button></a>
+<a href="GwlTourism.html"><button style="color: #000; background-color: white;">"Explore"<span style="color: #096ac8;">Gwalior</span></button></a>
 </center>
 <br>
 </div>
